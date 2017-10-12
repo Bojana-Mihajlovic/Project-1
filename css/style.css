@@ -12,13 +12,17 @@ body {
     background-color: none;
     margin-left: 35px;
     margin-right: 5px;
+    padding-bottom: 20px;
+    border-bottom: solid;
+    border-bottom-color: darkgray;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+}
 #middle-wraper {
-/*
-    margin-left: 15px;
-    margin-right: -15px;
-*/
+    padding-top: 15px;
 }
 .title {
     text-align:right;
@@ -51,6 +55,8 @@ body {
 #studying-sites {
     display:flex;
     text-align: center;
+    margin-left: 35px;
+    margin-right: 5px;
 }
 
 .site {
@@ -70,8 +76,9 @@ body {
 
 .featured-work {
     font-size: 24pt;
-    color: black;
+    color: darkgray;
     font-family: 'Calibri', sans-serif;
+    margin-left: 20px;
 } 
 
 .featured-work > p{
