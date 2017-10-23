@@ -8,10 +8,8 @@ body {
 }
 
 #header { 
-    max-width: 100%;
+    
     background-color: none;
-    margin-left: 35px;
-    margin-right: 5px;
     padding-bottom: 20px;
     border-bottom: solid;
     border-bottom-color: darkgray;
@@ -38,25 +36,16 @@ body {
     margin-bottom: 0;
 } 
 
-
-.logo, .title {
-  display: inline;
-}
 .logo {
 
 }
 
 #main-content-wraper {
-    margin-left: 15px;
-    margin-right: 15px;
     text-align: center;
 }
 
 #studying-sites {
-    display:flex;
     text-align: center;
-    margin-left: 35px;
-    margin-right: 5px;
 }
 
 .site {
@@ -66,7 +55,7 @@ body {
     
 }
 
-.site-image {
+#site-image {
     text-align: center;
 }
 
@@ -89,4 +78,33 @@ body {
 
 .img-modal {
     text-align: center;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#main-image {
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .row {
+        flex-wrap: wrap;
+    }
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6. .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        flex: 1;
+    }
+}
+
+@media (max-width: 360px) {
+    .row {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6. .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        width: 100%;
+    }
 }
