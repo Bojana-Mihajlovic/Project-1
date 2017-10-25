@@ -13,12 +13,13 @@ body {
     padding-bottom: 20px;
     border-bottom: solid;
     border-bottom-color: darkgray;
-}
-
-.header {
     display: flex;
     justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 35px;
 }
+
+
 #middle-wraper {
     padding-top: 15px;
 }
@@ -51,16 +52,17 @@ body {
 .site {
     color: black;
     font-family: 'Calibri', sans-serif;
-    text-align: center;
+    text-align:-webkit-center;
     
 }
 
-#site-image {
+.site-image {
     text-align: center;
+    min-height: 275px;
 }
 
 .image-content {
-    text-align: center;
+    text-align: -webkit-center;
 }
 
 .featured-work {
@@ -73,7 +75,7 @@ body {
 .featured-work > p{
     margin-bottom: 0;
     margin-top: 15px;
-    padding-left: 15px;
+    padding-left: 10px;
 }
 
 .img-modal {
@@ -83,11 +85,12 @@ body {
 .img-responsive {
     max-width: 100%;
     height: auto;
-    display: block;
+    text-align: center;
 }
 
-#main-image {
+.main-image {
     text-align: center;
+    min-height: 275px;
 }
 
 @media (max-width: 767px) {
@@ -99,7 +102,7 @@ body {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 275px) {
     .row {
         flex-wrap: nowrap;
         flex-direction: column;

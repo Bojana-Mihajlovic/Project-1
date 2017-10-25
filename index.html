@@ -2,7 +2,7 @@
 <html>
 <head>
    <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
-    <meta name="viewport" content="width-device-width-viewport", hight=device-hight, initial-scale=1, max-scale=1, user-scalable='no'>
+    <meta name="viewport" content="width-device-width-viewport", height=device-height, initial-scale=1, max-scale=1, user-scalable='no'>
     <meta http-equiv="X-UA-Compatible" content="IE-EDGE">
     
     <!--links to css files or font files-->
@@ -17,23 +17,27 @@
     <body>
     
    <div id='container'>
-       <header id="header">
-         <div class="header">
-            <div class="logo">
-                <img src="images/logo.png">
+      <div class="row">
+        <header id="header">
+            <div class="col-md-4">
+                <div class="logo">
+                    <img src="images/logo.png">
+                </div>
             </div>
-            <div class='title'>
-             <h1> Bojana Mihajlovic</h1>
-             <h2>PHS Student</h2>
+            <div class="col-md-8">
+                <div class='title'>
+                 <h1> Bojana Mihajlovic</h1>
+                 <h2>PHS Student</h2>
+                </div>
             </div>
-           </div>
-       </header>  
+           </header> 
+     </div>
        <div id="middle-wraper">
             <div class='row'>
                 <div class='col-md-12 border'>
                         <div class="image-content">
                             
-                            <img src="images/mainimg.jpg" id='main-image' class='img-responsive'>
+                            <img src="images/mainimg.jpg" class='img-responsive main-image'>
                         </div>
                 </div>
             </div>
@@ -48,7 +52,7 @@
 
                     <div class='col-md-4 border'>
                         <div class="site" >
-                            <img src="images/codeacademy.png" id="site-image" data-toggle="modal" data-target="#code_academy_modal">
+                            <img src="images/codeacademy.png" data-toggle="modal" data-target="#code_academy_modal"class='img-responsive site-image'>
                             <h1>
                                 Code Academy
                             </h1>
@@ -57,7 +61,7 @@
                     </div>
                     <div class='col-md-4 border'>
                         <div class="site">
-                            <img src="images/khanacademy.png" id="site-image" data-toggle="modal" data-target="#khan_academy_modal" >
+                            <img src="images/khanacademy.png" data-toggle="modal" data-target="#khan_academy_modal" class='img-responsive site-image' >
                             <h1>
                                 Khan Academy
                             </h1>
@@ -66,7 +70,7 @@
                     </div>
                     <div class='col-md-4 border'>
                         <div class="site">
-                            <img src="images/Quizlet.png" id="site-image" data-toggle="modal" data-target="#quizlet_modal" >
+                            <img src="images/Quizlet.png" data-toggle="modal" data-target="#quizlet_modal" class='img-responsive site-image'>
                             <h1>
                              Quizlet
                             </h1>
@@ -85,7 +89,7 @@
                     <h4 class="modal-title" id="myModalLabel">Code Academy</h4> </div>
                 <div class="modal-body">
                      <div class="img-modal">
-                         <img src="images/codeacademymodal.png" >
+                         <img src="images/codeacademymodal.png" class='img-responsive'>
                     </div>
                     <br>
                     <br>
@@ -109,7 +113,7 @@
                     <h4 class="modal-title" id="myModalLabel">Khan Academy</h4> </div>
                 <div class="modal-body">
                      <div class="img-modal">
-                         <img src="images/khanacademymodal.png" >
+                         <img src="images/khanacademymodal.png" class='img-responsive'>
                     </div>
                     <br>
                     <br>
@@ -133,7 +137,7 @@
                     <h4 class="modal-title" id="myModalLabel">Quizlet</h4> </div>
                 <div class="modal-body"> 
                     <div class="img-modal">
-                        <img src="images/quizletmodal.png" >
+                        <img src="images/quizletmodal.png" class='img-responsive'>
                     </div>
                     <br>
                     <br>
