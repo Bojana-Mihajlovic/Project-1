@@ -59,6 +59,7 @@ body {
 .site-image {
     text-align: center;
     min-height: 275px;
+    padding: 30px;
 }
 
 .image-content {
@@ -75,7 +76,7 @@ body {
 .featured-work > p{
     margin-bottom: 0;
     margin-top: 15px;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 .img-modal {
@@ -91,18 +92,22 @@ body {
 .main-image {
     text-align: center;
     min-height: 275px;
+    margin-left: 10px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 769px) {
     .row {
         flex-wrap: wrap;
     }
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6. .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
         flex: 1;
     }
+    .main-image {
+        max-width: 400px;
+    }
 }
 
-@media (max-width: 275px) {
+@media (max-width: 360px) {
     .row {
         flex-wrap: nowrap;
         flex-direction: column;
