@@ -1,14 +1,11 @@
 body {
     background-color: white;
 /}
-
 #container { 
     margin: 0 auto;
     max-width: 1000px;
 }
-
 #header { 
-    
     background-color: none;
     padding-bottom: 20px;
     border-bottom: solid;
@@ -18,8 +15,6 @@ body {
     padding-left: 35px;
     padding-right: 35px;
 }
-
-
 #middle-wraper {
     padding-top: 15px;
 }
@@ -29,83 +24,63 @@ body {
     font-family: "Calibri", sans-serif;
     color: #172E11;
 }
-
-.title h2{
+.title > h2{
     text-align:right;
     position: relative;
     font-size: 18pt;
     margin-bottom: 0;
-} 
-
-.logo {
-
 }
-
-#main-content-wraper {
-    text-align: center;
+.logo {
 }
 
 #studying-sites {
     text-align: center;
 }
-
 .site {
     color: black;
     font-family: 'Calibri', sans-serif;
     text-align:-webkit-center;
-    
 }
-
 .site-image {
     text-align: center;
     min-height: 275px;
     padding: 30px;
 }
-
 .image-content {
     text-align: -webkit-center;
 }
-
 .featured-work {
     font-size: 24pt;
     color: darkgray;
     font-family: 'Calibri', sans-serif;
     margin-left: 20px;
-} 
-
+}
 .featured-work > p{
     margin-bottom: 0;
     margin-top: 15px;
     padding-left: 15px;
 }
-
 .img-modal {
     text-align: center;
 }
-
 .img-responsive {
     max-width: 100%;
     height: auto;
     text-align: center;
 }
-
-
 .main-image {
     text-align: center;
     min-height: 275px;
     margin-left: 10px;
 }
-
 @media (max-width: 769px) {
     .row {
         flex-wrap: wrap;
     }
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6. .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
         flex: 1;
-    }
-    
+    } 
 }
-
 @media (max-width: 360px) {
     .row {
         flex-wrap: nowrap;
